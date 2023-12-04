@@ -1,0 +1,21 @@
+def overallGPA():
+    for i in range (4):
+        x = input("Enter grades from class: ")
+        if x == "A":
+            grades2.append(4)
+        elif x == "B":
+            grades2.append(3)
+        elif x == "C":
+            grades2.append(2)
+        elif x == "D":
+            grades2.append(1)
+        elif x == "F":
+            grades2.append(0)
+
+
+
+    grades3 = sum(grades2)
+ 
+    grades4 = float(grades3/i)
+    print(grades4)
+overallGPA()
